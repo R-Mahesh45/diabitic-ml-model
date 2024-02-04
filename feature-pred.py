@@ -1,23 +1,6 @@
 
 import streamlit as st
-
-st.title('You Bunch of Assholes:coffee:')
-
-st.markdown('wave assholes! :kiss:')
-
-st.markdown('Harshal gandu! :sweat_drops:')
-
-st.markdown('Roshan Loduuuu! :dash:')
-
-st.markdown('Kamlesh Virgin Mojito! :moyai: ')
-
-st.markdown('Kunal Bhosdicha! :middle_finger:')
-
-st.markdown('Amit Bhaioooo! :no_smoking:')
-
-st.text('check your ass from diabetes')
-
-st.markdown('i have messaged you the values enter that or check about your physical details and enter to know about yourself, this for a feature predctions from history to predict about your feature! :place_of_worship:')
+st.markdown('i have messaged you the values enter that or check about your physical details and enter to know about yourself, this is for a feature predctions from history data to predict about your feature! :place_of_worship:')
 
 
 
@@ -139,9 +122,9 @@ def main():
     if st.button('Predict'):
         result = predict(preg,plas,pres,skin,test,mass,pedi,age)
         if result==0:
-            st.success("your ass has been saved from diabetic")
+            st.success("you are not having a diabeties")
         else:
-            st.success("you fucked up! you are having diabetis")
+            st.success("you are having diabetis")
             
             
 if __name__ == '__main__':
